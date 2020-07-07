@@ -13,7 +13,7 @@
       "state":"IL",
       "zip": "60194"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "http://www.joshua-agins.com",
     "resumedownload":"https://resume.creddle.io/resume/57c23r5bprt",
     "social":[
       {
@@ -41,7 +41,7 @@
         "school":"DeVry University - Addison",
         "degree":"Game and Simulation Programming",
         "graduated":"June 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Bacholor of Science program that teaches game design and game and simulation programing using C++/C# and DirectX. Worked with game engines such as Unreal3 and Unity and also creating a custom game engine from scratch. 3d modeling using 3D studio Max was also covered during the 127 credit hour cirriculum."
       }
     ],
     "work":[
@@ -49,13 +49,13 @@
         "company":"NetherRealm Studios",
         "title":"Mobile QA Analyst ",
         "years":"June 2015 - June 2017",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Worked on titles such as: Mortal Kombat X, WWE Immortals, Injustice: Gods Among Us, and Injustice2 on iOS and Android. Responsilbilites were to find and document bugs to the QA Lead, and in JIRA. Ensured high quality standards and intregrity of the product. Worked on a team of 7 other Mobile QA Analysts."
       },
       {
         "company":"WMS Gaming Inc",
         "title":"Test Engineer",
         "years":"October 2013 - March 2014",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Worked on a project called Betcloud for Norwegian Cruise Lines. Responsiblities included: reporting and documenting bugs in the bug tracking software similar to JIRA and to the Project Manager and creating and executing test cases."
       }
     ],
     "skills":[
@@ -125,30 +125,6 @@
         "category":"Website I built for a restaurant I like in Thailand",
         "image":"original-thai-food.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
       }
     ]
   }
