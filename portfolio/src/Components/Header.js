@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {Link} from 'react-router-dom';
+
 function Header(props)
 {
 
@@ -8,7 +10,6 @@ function Header(props)
       var name = props.data.name;
       var occupation = props.data.occupation;
       var description = props.data.description;
-      var city = props.data.address.city;
       var networks = props.data.social.map(network => {
         return <li key={network.name}><a href={network.url} target='_blank' rel='noopener noreferer'><i className={network.className}></i></a></li>
       })
@@ -34,7 +35,7 @@ function Header(props)
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h3>I'm a Chicago based <span>{occupation}</span>. {description}.</h3>
             <hr />
             <ul className="social">
                {networks}

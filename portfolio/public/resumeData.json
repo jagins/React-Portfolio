@@ -4,8 +4,7 @@
     "occupation":"Full-Stack Web Developer",
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"images/profilepic.jpg",
-    "bio":"I'm a Full-Stack Web Developer mainily working with the PERN stack. I have worked with GraphQL and Prisma as well for a backend. I'm also a soccer referee, working matches from youth to semi-pro.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"Hi, I'm a the Full-Stack Web Developer mainily working with the PERN stack. I have worked with GraphQL and Prisma as well for a backend. I also have a B.S. degree from DeVry University in Game and Simulation Programming. While at DeVry I made video games and focused on them for mobile using Unreal and Unity game engines. I also Referee soccer games working up to Semi-Professional leagues around the Midwest. A fun fact was that in 2018 I was 1 of 24 Referees selected to represent the Midwest Region for the United States Youth Soccer Association's National Championship, in Dallas.",
     "email": "jagins629@gmail.com",
     "phone": "847-529-3100",
     "address":{
@@ -29,7 +28,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
         "school":"Lambda School",

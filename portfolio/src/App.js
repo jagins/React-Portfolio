@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import ReactGA from 'react-ga';
-import $ from 'jquery';
+import axios from 'axios';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -10,30 +10,20 @@ import Portfolio from './Components/Portfolio';
 
 function App() 
 {
-  const [state, setState] = useState({
-      resumeData: {}
-  })
+  const [state, setState] = useState({resumeData: {}})
 
     ReactGA.initialize('UA-110570651-1');
     ReactGA.pageview(window.location.pathname);
 
-  const getResumeData = () => {
-    $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        setState({resumeData: data});
-      },
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
-
   useEffect(() => {
-    getResumeData()
+    axios.get('/resumeData.json')
+    .then(res => {
+      setState({resumeData: res.data})
+    })
+    .catch(err => {
+      console.log(err);
+      alert(err);
+    })
   }, [])
 
     return (
