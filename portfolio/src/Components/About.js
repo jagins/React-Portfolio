@@ -32,12 +32,12 @@ class About extends Component {
 						   <span>{city} {state}
                    </span><br />
 						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                     <span><a href='mailto:jagins629@gmail.com'>{email}</a></span>
 					   </p>
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resumeDownload} target= '_blank' rel = 'noopener noreferer' className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
