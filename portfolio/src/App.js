@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {useState, useEffect} from 'react';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
@@ -8,28 +8,23 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
 
-class App extends Component {
-
-  constructor(props){
-    super(props);
-    this.state = {
-      foo: 'bar',
+function App() 
+{
+  const [state, setState] = useState({
       resumeData: {}
-    };
+  })
 
     ReactGA.initialize('UA-110570651-1');
     ReactGA.pageview(window.location.pathname);
 
-  }
-
-  getResumeData(){
+  const getResumeData = () => {
     $.ajax({
       url:'/resumeData.json',
       dataType:'json',
       cache: false,
       success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
+        setState({resumeData: data});
+      },
       error: function(xhr, status, err){
         console.log(err);
         alert(err);
@@ -37,23 +32,19 @@ class App extends Component {
     });
   }
 
-  componentDidMount(){
-    this.getResumeData();
-  }
+  useEffect(() => {
+    getResumeData()
+  }, [])
 
-  render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
-        {/* <Contact data={this.state.resumeData.main}/> */}
-        <Footer data={this.state.resumeData.main}/>
+        <Header data={state.resumeData.main}/>
+        <About data={state.resumeData.main}/>
+        <Resume data={state.resumeData.resume}/>
+        <Portfolio data={state.resumeData.portfolio}/>
+        <Footer data={state.resumeData.main}/>
       </div>
     );
-  }
 }
 
 export default App;
