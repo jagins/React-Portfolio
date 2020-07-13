@@ -3,7 +3,7 @@
     "name":"Josh Agins",
     "occupation":"Full-Stack Web Developer",
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image":"profilepic.jpg",
+    "image":"images/profilepic.jpg",
     "bio":"I'm a Full-Stack Web Developer mainily working with the PERN stack. I have worked with GraphQL and Prisma as well for a backend. I'm also a soccer referee, working matches from youth to semi-pro.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "jagins629@gmail.com",
