@@ -108,21 +108,21 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
+        "title":"Disney kids",
         "category":"My Travel Blog for my post-university travels",
-        "image":"images/portfolio/canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "image":"images/portfolio/disney.png",
+        "url":"https://github.com/Disney-Parent-1-BW/BackEnd"
       },
       {
-        "title":"Fury Fighting Gear",
+        "title":"Earthmed Concept Website",
         "category":"(offline now) A fighting gear company I started",
-        "image":"images/portfolio/fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "image":"http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Frelaxed-galileo-db6983.netlify.app",
+        "url":"https://relaxed-galileo-db6983.netlify.app/"
       },
       {
-        "title":"Original Thai Food",
+        "title":"Save the Animals",
         "category":"Website I built for a restaurant I like in Thailand",
-        "image":"images/portfolio/original-thai-food.jpg",
+        "image":"http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Flaughing-swirles-20cd12.netlify.app",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       }
     ]
