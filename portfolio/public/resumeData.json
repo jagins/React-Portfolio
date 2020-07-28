@@ -2,9 +2,9 @@
   "main": {
     "name":"Josh Agins",
     "occupation":"Full-Stack Web Developer",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"Full stack web developer skilled in JavaScript, React, Node, and Express. Passionate about learning new technology, writing clean, easy to read code, and enjoy putting the code together to make something from an idea to an app a user can use and interact with to have a good user experience. ",
     "image":"images/profilepic.jpg",
-    "bio":"Hi, I'm a the Full-Stack Web Developer mainily working with the PERN stack. I have worked with GraphQL and Prisma as well for a backend. I also have a B.S. degree from DeVry University in Game and Simulation Programming. While at DeVry I made video games and focused on them for mobile using Unreal and Unity game engines. I also Referee soccer games working up to Semi-Professional leagues around the Midwest. In 2018 I was 1 of 24 Referees selected to represent the Midwest Region for the United States Youth Soccer Association's National Championship, in Dallas.",
+    "bio":"Hi, I'm a Full-Stack Web Developer mainily working with the PERN stack. I have worked with GraphQL and Prisma as well for a backend. I also have a B.S. degree from DeVry University in Game and Simulation Programming. While at DeVry I made video games and focused on them for mobile using Unreal and Unity game engines. I also Referee soccer games working up to Semi-Professional leagues around the Midwest. In 2018 I was 1 of 24 Referees selected to represent the Midwest Region for the United States Youth Soccer Association's National Championship, in Dallas.",
     "email": "jagins629@gmail.com",
     "phone": "847-529-3100",
     "address":{
@@ -116,13 +116,13 @@
       {
         "title":"Earthmed",
         "category":"Ecommerce website for legalized recreational marijuana sales",
-        "image":"http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Frelaxed-galileo-db6983.netlify.app",
+        "image":"images/portfolio/earthmed.jpg",
         "url":"https://relaxed-galileo-db6983.netlify.app/"
       },
       {
         "title":"Save the Animals",
         "category":"Gofundme for animal rights organizations",
-        "image":"http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Flaughing-swirles-20cd12.netlify.app",
+        "image":"images/portfolio/save_the_animals.jpg",
         "url":"https://laughing-swirles-20cd12.netlify.app/"
       }
     ]
