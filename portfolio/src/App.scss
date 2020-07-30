@@ -48,12 +48,10 @@
 }
 
 #about {
-    border: 1px solid red;
     padding-bottom: 1%;
     background: #2b2b2b;
     color: white;
     .container {
-        border: 1px solid green;
         display: flex;
 
         img {
@@ -96,5 +94,108 @@
                 text-decoration: none;
             }
         }
+    }
+}
+
+#resume {
+    border: 1px solid red;
+    .education {
+        // border: 1px solid blue;
+        display: flex;
+        align-items: center;
+        margin-left: 25%;
+        margin-top: 2%;
+        width: 20%;
+
+        .education-header {
+            margin-right: 12%;
+            border-bottom: 0.2rem solid #11abb0;
+        }
+    }
+
+    .education-content {
+        margin-left: 33%;
+        width: 34%;
+     }
+
+     .graduation {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         width: 48.4%;
+
+         .title {
+             font-style: italic;
+         }
+
+         .grad-date:before {
+            content:"• ";
+            font-size: 1.3rem;
+         }
+     }
+
+     .education-desc {
+        margin-top: 2.5%;
+     }
+
+     .school {
+         margin-top: 5%;
+     }
+
+     .devry {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 53.5%;
+
+        .title {
+            font-style: italic;
+        }
+
+        .grad-date:before {
+            content:"• ";
+            font-size: 1.3rem;
+        }
+     }
+
+     .work {
+        display: flex;
+        align-items: center;
+        margin-left: 25%;
+        margin-top: 2%;
+        width: 25%;
+        
+        .work-header {
+            border-bottom: 0.2rem solid #11abb0;
+        }
+    
+        .work-title {
+            margin-left: 18%;
+        }
+     }
+
+     .job {
+      margin-left: 32.5%;
+      display: flex;
+      align-items: center;
+      width: 16.2%;
+      justify-content: space-between;
+
+      .job-title {
+          font-style: italic;
+          margin-right: 1%;
+      }
+
+      .job-date::before {
+        content:"• ";
+        font-size: 1.3rem;
+      }
+    }
+
+    .work-desc {
+        border: 1px solid blue;
+        margin-left: 32.5%;
+        width: 35%;
+        margin-top: 1%;
     }
 }
