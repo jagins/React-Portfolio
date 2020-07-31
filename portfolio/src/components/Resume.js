@@ -26,7 +26,9 @@ function Resume()
                 
                 <p className='education-desc'>Bachelor of Science program that teaches game design and game and simulation programming using C++/C# and DirectX. Worked with game engines such as Unreal3 and Unity and also creating a custom game engine from scratch. 3d modeling using 3D Studio Max was also covered during the 127 credit hour cirriculum.</p>
             </div>
-
+            
+            <hr/>
+            
             <div className='work'>
                 <h3 className='work-header'>WORK</h3>
                 <h2 class='work-title'>NetherRealm Studios</h2>
@@ -39,13 +41,19 @@ function Resume()
            
             <p className='work-desc'>Worked on titles such as Mortal Kombat X, WWE Immortals, Injustice: Gods Among Us, and Injustice 2 on iOS and Android. Resonsilbilties were to find and document bugs to the QA Lead and in JIRA. Ensured high quality standards and intregrity of the product. Worked on a team of 7 other Mobile QA Analysts.</p>
 
-            <h2>WMS Gaming Inc</h2>
-            <p>Test Engineer</p>
-            <p>October 2013 - March 2014</p>
-            <p>Worked on a project called Betcloud for Norwegian Cruise Lines. Responsibilites were to find and document bugs in the bug tracking software similar to JIRA and to the Project Manager. While at WMS, I created and executed test cases that encompassed a variety of actions a user could perform on the Betcloud platform.</p>
+            <h2 className='second-job'>WMS Gaming Inc</h2>
 
-            <h3>SKILLS</h3>
-            <ul>
+            <div className='job'>
+                <p className='job-title'>Test Engineer</p>
+                <p className='job-date'>October 2013 - March 2014</p>
+            </div>
+            
+            <p className='work-desc'>Worked on a project called Betcloud for Norwegian Cruise Lines. Responsibilites were to find and document bugs in the bug tracking software similar to JIRA and to the Project Manager. While at WMS, I created and executed test cases that encompassed a variety of actions a user could perform on the Betcloud platform.</p>
+
+            <hr/>
+
+            <h3 className='skills-header'>SKILLS</h3>
+            <ul class='skills'>
                 <li>GIT</li>
                 <li>JAVASCRIPT</li>
                 <li>REACT</li>

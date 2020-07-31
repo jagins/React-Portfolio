@@ -4,7 +4,7 @@ function Projects()
 {
     return (
         <section>
-            <img src={disney}/>
+            <img src={disney} alt='Disney Kids API project'/>
         </section>
     )
 }
