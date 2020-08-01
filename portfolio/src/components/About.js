@@ -14,7 +14,7 @@ function About()
 
                     <div className='contact-container'>
                         <h3 className='contact'>Contact Details</h3>
-                        <p className='download'><FaDownload/> Download Resume</p>
+                        <p className='download'><span><FaDownload/></span>Download Resume</p>
                     </div>
                     <address   address>
                         Josh Agins <br/>
