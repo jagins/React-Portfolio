@@ -10,6 +10,7 @@ import cSharp from '@iconify/icons-logos/c-sharp';
 import api1 from '@iconify/icons-carbon/api-1';
 import prismaIcon from '@iconify/icons-logos/prisma';
 import nodejsIcon from '@iconify/icons-logos/nodejs';
+import ReactTooltip from 'react-tooltip';
 
 function Resume()
 {
@@ -66,21 +67,48 @@ function Resume()
             <h3 className='skills-header'>SKILLS</h3>
             <ul class='skills'>
                 <IconContext.Provider value={{className: 'skill-icon', size: '100px'}}>
-                    <li><FaGitAlt style={{color: '#f05133'}}/></li>
-                    <li><DiJavascript style={{color: '#f7df1e'}}/></li>
-                    <li><FaReact style={{color: '#61dafb'}}/></li>
-                    <li><FaHtml5 style={{color: '#e44d26'}}/></li>
-                    <li><FaCss3Alt style={{color: '#379ad6'}}/></li>
-                    <li><FaLess style={{color: 'purple'}}/></li>
-                    <li><DiPostgresql style={{color: '#326690'}}/></li>
-                    <li><GrGraphQl style={{color: '#e535ab'}}/></li>
+                    <li data-tip data-for='git'><FaGitAlt style={{color: '#f05133'}}/></li>
+                    <ReactTooltip id='git' place='top' effect='solid'>GIT</ReactTooltip>
+                    
+                    <li data-tip data-for='javascript'><DiJavascript style={{color: '#f7df1e'}}/></li>
+                    <ReactTooltip id='javascript' place='top' effect='solid'>JavaScript</ReactTooltip>
+                    
+                    <li data-tip data-for='react'><FaReact style={{color: '#61dafb'}}/></li>
+                    <ReactTooltip id='react' place='top' effect='solid'>React</ReactTooltip>
+                    
+                    <li data-tip data-for='html'><FaHtml5 style={{color: '#e44d26'}}/></li>
+                    <ReactTooltip id='html' place='top' effect='solid'>HTML5</ReactTooltip>
+                    
+                    <li data-tip data-for='css'><FaCss3Alt style={{color: '#379ad6'}}/></li>
+                    <ReactTooltip id='css' place='top' effect='solid'>CSS3</ReactTooltip>
+                    
+                    <li data-tip data-for='less'><FaLess style={{color: 'purple'}}/></li>
+                    <ReactTooltip id='less' place='top' effect='solid'>LESS</ReactTooltip>
+
+                    <li data-tip data-for='postgres'><DiPostgresql style={{color: '#326690'}}/></li>
+                    <ReactTooltip id='postgres' place='top' effect='solid'>PostGreSQL</ReactTooltip>
+
+                    <li data-tip data-for='graphql'><GrGraphQl style={{color: '#e535ab'}}/></li>
+                    <ReactTooltip id='graphql' place='bottom' effect='solid'>GraphQL</ReactTooltip>
+
                 </IconContext.Provider>
-                <li><Icon icon={nodejsIcon} width='6em' height='6em'/></li>
-                <li><Icon icon={reduxIcon} width='6em' height='6em'/></li>
-                <li><Icon icon={api1} width='6em' height='6em'/></li>
-                <li><Icon icon={cPlusplus} width='6em' height='6em'/></li>
-                <li><Icon icon={cSharp} width='6em' height='6em'/></li>
-                <li><Icon icon={prismaIcon} width='6em' height='6em'/></li>
+                <li data-tip data-for='node'><Icon icon={nodejsIcon} width='6em' height='6em'/></li>
+                <ReactTooltip id='node' place='bottom' effect='solid'>Node.js</ReactTooltip>
+
+                <lid data-tip data-for='redux'><Icon icon={reduxIcon} width='6em' height='6em'/></lid>
+                <ReactTooltip id='redux' place='bottom' effect='solid'>Redux</ReactTooltip>
+
+                <li data-tip data-for='api'><Icon icon={api1} width='6em' height='6em'/></li>
+                <ReactTooltip id='api' place='bottom' effect='solid'>REST API</ReactTooltip>
+
+                <li data-tip data-for='c++'><Icon icon={cPlusplus} width='6em' height='6em'/></li>
+                <ReactTooltip id='c++' place='bottom' effect='solid'>C++</ReactTooltip>
+
+                <li data-tip data-for='c#'><Icon icon={cSharp} width='6em' height='6em'/></li>
+                <ReactTooltip id='c#' place='bottom' effect='solid'>C#</ReactTooltip>
+
+                <li data-tip data-for='prisma'><Icon icon={prismaIcon} width='6em' height='6em'/></li>
+                <ReactTooltip id='prisma' place='bottom' effect='solid'>Prisma</ReactTooltip>
             </ul>
         </section>
     )   
