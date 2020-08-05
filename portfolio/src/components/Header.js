@@ -11,7 +11,7 @@ function Header()
                 <a href='#'>Home</a>
                 <a href='#'>About</a>
                 <a href='#'>Resume</a>
-                <a href='#'>Work</a>
+                <a href='#'>Projects</a>
             </nav>
 
             <h1>I'm Josh Agins</h1>
