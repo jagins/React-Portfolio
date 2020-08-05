@@ -1,4 +1,15 @@
 import React from 'react';
+import {IconContext} from 'react-icons';
+import {FaGitAlt, FaReact, FaHtml5, FaCss3Alt, FaLess} from 'react-icons/fa';
+import {DiJavascript, DiPostgresql} from 'react-icons/di';
+import {GrGraphQl} from 'react-icons/gr';
+import {Icon} from '@iconify/react';
+import reduxIcon from '@iconify/icons-logos/redux';
+import cPlusplus from '@iconify/icons-logos/c-plusplus';
+import cSharp from '@iconify/icons-logos/c-sharp';
+import api1 from '@iconify/icons-carbon/api-1';
+import prismaIcon from '@iconify/icons-logos/prisma';
+import nodejsIcon from '@iconify/icons-logos/nodejs';
 
 function Resume()
 {
@@ -54,20 +65,22 @@ function Resume()
 
             <h3 className='skills-header'>SKILLS</h3>
             <ul class='skills'>
-                <li>GIT</li>
-                <li>JAVASCRIPT</li>
-                <li>REACT</li>
-                <li>NODE</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>LESS</li>
-                <li>POSTGRESQL</li>
-                <li>REDUX</li>
-                <li>RESUTFUL API</li>
-                <li>GRAPHQL</li>
-                <li>C++</li>
-                <li>C#</li>
-                <li>PRISMA</li>
+                <IconContext.Provider value={{className: 'skill-icon', size: '100px'}}>
+                    <li><FaGitAlt style={{color: '#f05133'}}/></li>
+                    <li><DiJavascript style={{color: '#f7df1e'}}/></li>
+                    <li><FaReact style={{color: '#61dafb'}}/></li>
+                    <li><FaHtml5 style={{color: '#e44d26'}}/></li>
+                    <li><FaCss3Alt style={{color: '#379ad6'}}/></li>
+                    <li><FaLess style={{color: 'purple'}}/></li>
+                    <li><DiPostgresql style={{color: '#326690'}}/></li>
+                    <li><GrGraphQl style={{color: '#e535ab'}}/></li>
+                </IconContext.Provider>
+                <li><Icon icon={nodejsIcon} width='6em' height='6em'/></li>
+                <li><Icon icon={reduxIcon} width='6em' height='6em'/></li>
+                <li><Icon icon={api1} width='6em' height='6em'/></li>
+                <li><Icon icon={cPlusplus} width='6em' height='6em'/></li>
+                <li><Icon icon={cSharp} width='6em' height='6em'/></li>
+                <li><Icon icon={prismaIcon} width='6em' height='6em'/></li>
             </ul>
         </section>
     )   

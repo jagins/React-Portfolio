@@ -255,9 +255,13 @@
     }
 
     .skills {
-        margin-left: 33%;
+        margin-left: 30%;
         list-style-type: none;
         margin-bottom: 2%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 40%;
 
         li {
             font-weight: bold;
