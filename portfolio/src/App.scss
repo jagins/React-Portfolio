@@ -322,13 +322,20 @@
             height: auto;
         }
 
-        button {
+        div {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             cursor: pointer;
             visibility: hidden;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .project-link:hover {
+                color: aqua;
+            }
         }
 
         &:hover {
@@ -349,13 +356,11 @@
                 opacity: 0.2;
             }
 
-            button {
+            div {
                 visibility: visible;
                 width: 50%;
                 height: 20%;
-                background: gray;
                 color: white;
-                font-size: 1.5rem;
             }
         }
     }

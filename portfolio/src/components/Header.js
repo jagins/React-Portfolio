@@ -2,16 +2,17 @@ import React from 'react';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 
 import {IconContext} from 'react-icons';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 function Header()
 {
     return (
         <section id='home'>
             <nav>
-                <a href='#'>Home</a>
-                <a href='#'>About</a>
-                <a href='#'>Resume</a>
-                <a href='#'>Projects</a>
+                <AnchorLink href='#home'>Home</AnchorLink>
+                <AnchorLink href='#about'>About</AnchorLink>
+                <AnchorLink href='#resume'>Resume</AnchorLink>
+                <AnchorLink href='#projects'>Projects</AnchorLink>
             </nav>
 
             <h1>I'm Josh Agins</h1>
