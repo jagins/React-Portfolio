@@ -4,11 +4,12 @@
     padding: 0;
 }
 
+
+
 #home {
-    background: url('./images/header-background.jpg') no-repeat;
+    background: url('./images/header-background.png') no-repeat;
     background-size: cover;
     height: auto;
-    color: white;
     padding-bottom: 30%;
     nav {
         text-align: center;
@@ -35,7 +36,7 @@
         margin-top: 10%;
         font-size: 6rem;
         font-family: 'Open Sans', sans-serif;
-
+        color: white;
     }
 
     h3 {
@@ -44,6 +45,9 @@
         margin: 0 auto;
         font-size: 2rem;
         margin-top: 1%;
+        color: white;
+        background: black;
+        background-color: rgba(0,0,0,0.4);
     }
 
     .icons {
@@ -54,6 +58,7 @@
         width: 20%;
         margin-top: 2%;
         cursor: pointer;
+        color: white;
     }
 }
 
