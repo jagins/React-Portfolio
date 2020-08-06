@@ -7,9 +7,9 @@ function Footer()
     return (
         <footer>
             <div>
-                <IconContext.Provider value={{className: 'icons', size: '30px', color: '#525252'}}>
-                    <FaLinkedinIn className='icons'/>
-                    <FaGithub/>
+                <IconContext.Provider value={{className: 'footer-icons', size: '30px', color: '#525252'}}>
+                    <a href='http://www.linkedin.com/in/joshua-agins' target='_blank noreferrer' ><FaLinkedinIn/></a>
+                    <a href='http://www.github.com/jagins' target='_blank noreferrer'><FaGithub/></a>
                 </IconContext.Provider>
             </div>
             <p>&copy; Copyright 2020 Joshua Agins</p>

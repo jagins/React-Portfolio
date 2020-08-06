@@ -59,6 +59,10 @@
         margin-top: 2%;
         cursor: pointer;
         color: white;
+
+        &:hover {
+            color: aqua;
+        }
     }
 }
 
@@ -376,7 +380,7 @@ footer {
         text-align: center;
         margin-top: 1%;
 
-        .icons {
+        .footer-icons {
             margin-left: 2%;
             cursor: pointer;
         }
