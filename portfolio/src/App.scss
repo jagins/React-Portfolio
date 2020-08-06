@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+
+#home {
+    background: url('./images/header-background.png') no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 30%;
+    nav {
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 30%;
+        padding-top: 1%;
+    }
+
+    a {
+        color: navy;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        &:hover {
+            color: orange;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 10%;
+        font-size: 6rem;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+    }
+
+    h3 {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 2rem;
+        margin-top: 1%;
+        color: white;
+        background: black;
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .icons {
+        text-align: center;
+        margin-top: 1%;
+        padding-bottom: 1%;
+        margin: 0 auto;
+        width: 20%;
+        margin-top: 2%;
+        cursor: pointer;
+        color: white;
+
+        &:hover {
+            color: aqua;
+        }
+    }
+}
+
+#about {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: #2b2b2b;
+    color: white;
+    .container {
+        display: flex;
+
+        img {
+            margin-left: 25%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            border-radius: 10%;
+        }
+
+        div {
+            width: 37%;
+            height: 50%;
+            margin-top: 2%;
+            margin-left: 2%;
+
+            h3 {
+               font-family: 'Open Sans';
+               font-weight: bold;
+            }
+
+            .about-text {
+                margin-top: 2%;
+            }
+
+            .contact-container {
+                margin-top: 2%;
+                margin-left: 0;
+                display: flex;
+                width: 71%;
+                justify-content: space-between;
+
+                a {
+                    border: 1px solid #444444;
+                    background: #444444;
+                    width: 40%;
+                    text-align: center;
+                    padding-top: 2%;
+                    padding-bottom: 2%;
+                    margin-top: 1%;
+                    text-decoration: none;
+
+                    p {
+                        color: white;
+                    }
+
+
+                    span {
+                        margin-right: 6%;
+                        color: white
+                    }
+                }
+            }
+            address {
+                font-family: 'Open Sans', sans-serif;
+                font-style: normal;
+            }
+            .email {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#resume {
+    .education {
+        display: flex;
+        align-items: center;
+        margin-left: 25%;
+        margin-top: 2%;
+        width: 20%;
+
+        .education-header {
+            margin-right: 12%;
+            border-bottom: 0.2rem solid #11abb0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+        }
+    }
+
+    .education-content {
+        margin-left: 33%;
+        width: 34%;
+     }
+
+     .graduation {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         width: 50%;
+
+         .title {
+             font-style: italic;
+             font-family: 'Libre Baskerville';
+         }
+
+         .grad-date:before {
+            content:"• ";
+            font-size: 1.3rem;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+         }
+     }
+
+     .education-desc {
+        margin-top: 2.5%;
+        font-family: 'Open Sans', sans-serif;
+     }
+
+     .school {
+         margin-top: 5%;
+     }
+
+     .devry {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 56%;
+
+        .title {
+            font-style: italic;
+            font-family: 'Libre Baskerville';
+        }
+
+        .grad-date:before {
+            content:"• ";
+            font-size: 1.3rem;
+            font-family: 'Open Sans', sans-serif;
+        }
+     }
+
+     .work {
+        display: flex;
+        align-items: center;
+        margin-left: 25%;
+        margin-top: 2%;
+        width: 25%;
+        
+        .work-header {
+            border-bottom: 0.2rem solid #11abb0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+        }
+    
+        .work-title {
+            margin-left: 18%;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+        }
+     }
+
+     .job {
+      margin-left: 32.5%;
+      display: flex;
+      align-items: center;
+      width: 17%;
+      justify-content: space-between;
+
+      .job-title {
+          font-style: italic;
+          font-family: 'Libre Baskerville', serif;
+      }
+      
+
+      .job-date::before {
+        content:"• ";
+        font-size: 1.3rem;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+
+    .work-desc {
+        margin-left: 32.5%;
+        width: 35%;
+        margin-top: 1%;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .second-job {
+        margin-left: 32.5%;
+        margin-top: 2%;
+    }
+
+    .skills-header {
+        margin-left: 25%;
+        border-bottom: 0.2rem solid #11abb0;
+        width: 3%;
+        margin-top: 3%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+    }
+
+    .skills {
+        margin-left: 30%;
+        list-style-type: none;
+        margin-bottom: 2%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 40%;
+
+        li {
+            font-weight: bold;
+            margin-bottom: 1%;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+        }
+    }
+
+    hr {
+        width: 50%;
+        margin-left: 23%;
+        margin-top: 3%;
+        border-color: #ededed;
+        opacity: 0.2;
+    }
+}
+
+#projects {
+    background-color: #ebeeee;
+    padding-bottom: 5%;
+
+    h3 {
+        text-align: center;
+        padding-top: 3%;
+        margin-bottom: 3%;
+        color: #99a4ab;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+    }
+
+    .project-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: stretch;
+    }
+
+    .wrapper {
+        position: relative;
+        width: 50%;
+        border: 1px solid 'blue';
+        width: 30%;
+        cursor: pointer;
+
+        p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            visibility: hidden;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            visibility: hidden;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .project-link:hover {
+                color: aqua;
+            }
+
+            a:visited {
+                color: white;
+            }
+        }
+
+        &:hover {
+            background: black;
+            
+            p {
+                visibility: visible;
+                color: white;
+                margin-left: 3%;
+                margin-top: 3%;
+            }
+
+            .project-desc {
+                margin-top: 8%;
+            }
+            
+            img {
+                opacity: 0.2;
+            }
+
+            div {
+                visibility: visible;
+                width: 50%;
+                height: 20%;
+                color: white;
+            }
+        }
+    }
+
+}
+
+footer {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background: black;
+
+    div {
+        text-align: center;
+        margin-top: 1%;
+
+        .footer-icons {
+            margin-left: 2%;
+            cursor: pointer;
+        }
+    }
+
+    p {
+        text-align: center;
+        margin-top: 1.5%;
+        color: #525252;
+        font-family: 'Open Sans', sans-serif;
+    }
+}

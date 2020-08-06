@@ -1,40 +1,22 @@
-import React, {useState, useEffect} from 'react';
-import ReactGA from 'react-ga';
-import axios from 'axios';
-import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Portfolio from './Components/Portfolio';
+import React from 'react';
+import './App.scss';
 
-function App() 
-{
-  const [state, setState] = useState({resumeData: {}})
+import Header from './components/Header';
+import About from './components/About';
+import Resume from './components/Resume';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
-    ReactGA.initialize('UA-110570651-1');
-    ReactGA.pageview(window.location.pathname);
-
-  useEffect(() => {
-    axios.get('/resumeData.json')
-    .then(res => {
-      setState({resumeData: res.data})
-    })
-    .catch(err => {
-      console.log(err);
-      alert(err);
-    })
-  }, [])
-
-    return (
-      <div className="App">
-        <Header data={state.resumeData.main}/>
-        <About data={state.resumeData.main}/>
-        <Resume data={state.resumeData.resume}/>
-        <Portfolio data={state.resumeData.portfolio}/>
-        <Footer data={state.resumeData.main}/>
-      </div>
-    );
+function App() {
+  return (
+    <div className="App">
+      <Header/>
+      <About/>
+      <Resume/>
+      <Projects/>
+      <Footer/>
+    </div>
+  );
 }
 
 export default App;
