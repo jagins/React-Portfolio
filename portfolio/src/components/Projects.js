@@ -30,7 +30,6 @@ function Projects()
                     <img src={disney} alt='Disney Kids API'/>
                     <div className='links'>
                         <IconContext.Provider value={{className: 'project-link', size: '50px'}}>
-                            <FaLink/> 
                             <FaGithub/>
                         </IconContext.Provider>
                     </div>
