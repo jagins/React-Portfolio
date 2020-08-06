@@ -11,8 +11,8 @@ function Header()
             <nav>
                 <AnchorLink href='#home'>Home</AnchorLink>
                 <AnchorLink href='#about'>About</AnchorLink>
-                <AnchorLink href='#resume'>Resume</AnchorLink>
                 <AnchorLink href='#projects'>Projects</AnchorLink>
+                <AnchorLink href='#resume'>Resume</AnchorLink>
             </nav>
 
             <h1>I'm Josh Agins</h1>
