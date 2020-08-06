@@ -43,7 +43,7 @@ function Resume()
             
             <div className='work'>
                 <h3 className='work-header'>WORK</h3>
-                <h2 class='work-title'>NetherRealm Studios</h2>
+                <h2 className='work-title'>NetherRealm Studios</h2>
             </div>
             
             <div className='job'>
@@ -65,7 +65,7 @@ function Resume()
             <hr/>
 
             <h3 className='skills-header'>SKILLS</h3>
-            <ul class='skills'>
+            <ul className='skills'>
                 <IconContext.Provider value={{className: 'skill-icon', size: '100px'}}>
                     <li data-tip data-for='git'><FaGitAlt style={{color: '#f05133'}}/></li>
                     <ReactTooltip id='git' place='top' effect='solid'>GIT</ReactTooltip>
@@ -95,7 +95,7 @@ function Resume()
                 <li data-tip data-for='node'><Icon icon={nodejsIcon} width='6em' height='6em'/></li>
                 <ReactTooltip id='node' place='bottom' effect='solid'>Node.js</ReactTooltip>
 
-                <lid data-tip data-for='redux'><Icon icon={reduxIcon} width='6em' height='6em'/></lid>
+                <li data-tip data-for='redux'><Icon icon={reduxIcon} width='6em' height='6em'/></li>
                 <ReactTooltip id='redux' place='bottom' effect='solid'>Redux</ReactTooltip>
 
                 <li data-tip data-for='api'><Icon icon={api1} width='6em' height='6em'/></li>

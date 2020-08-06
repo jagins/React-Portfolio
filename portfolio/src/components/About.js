@@ -23,7 +23,7 @@ function About()
                             </p>
                         </a>
                     </div>
-                    <address   address>
+                    <address>
                         Josh Agins <br/>
                         Schaumburg, IL <br/>
                         (847) 529-3100 <br/>
