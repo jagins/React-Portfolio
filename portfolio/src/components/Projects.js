@@ -18,8 +18,8 @@ function Projects()
                     <img src={earthmed} alt='Earthmed Concept Website'/>
                     <div className='links'>
                         <IconContext.Provider value={{className: 'project-link', size: '50px'}}>
-                            <FaLink/> 
-                            <FaGithub/>
+                            <a href='https://relaxed-galileo-db6983.netlify.app/'  target='_blank noreferrer'><FaLink/></a> 
+                            <a href='https://github.com/jagins/Portfolio-Eathmed-Concept' target='_blank noreferrer'><FaGithub/></a>
                         </IconContext.Provider>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ function Projects()
                     <img src={disney} alt='Disney Kids API'/>
                     <div className='links'>
                         <IconContext.Provider value={{className: 'project-link', size: '50px'}}>
-                            <FaGithub/>
+                            <a href='https://github.com/Disney-Parent-1-BW/BackEnd' target='_blank noreferrer'><FaGithub/></a>
                         </IconContext.Provider>
                     </div>
                 </div>
@@ -41,8 +41,8 @@ function Projects()
                     <img src={animals} alt='Disney Kids API'/>
                     <div className='links'>
                         <IconContext.Provider value={{className: 'project-link', size: '50px'}}>
-                            <FaLink/> 
-                            <FaGithub/>
+                            <a href='https://laughing-swirles-20cd12.netlify.app/'  target='_blank noreferrer'><FaLink/></a> 
+                            <a href='https://github.com/SaveTheAnimals2/Front-End-STA2'  target='_blank noreferrer'><FaGithub/></a>
                         </IconContext.Provider>
                     </div>
                 </div>

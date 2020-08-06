@@ -14,7 +14,14 @@ function About()
 
                     <div className='contact-container'>
                         <h3 className='contact'>Contact Details</h3>
-                        <p className='download'><span><FaDownload/></span>Download Resume</p>
+                        <a href='https://resume.creddle.io/resume/57c23r5bprt' target='_blank noreferrer'>
+                            <p className='download'>
+                                <span>
+                                    <FaDownload/>
+                                </span>
+                                Download Resume
+                            </p>
+                        </a>
                     </div>
                     <address   address>
                         Josh Agins <br/>
