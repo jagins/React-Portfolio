@@ -4,8 +4,6 @@
     padding: 0;
 }
 
-
-
 #home {
     background: url('./images/header-background.png') no-repeat;
     background-size: cover;
@@ -19,6 +17,10 @@
         align-items: center;
         width: 30%;
         padding-top: 1%;
+
+        @media(max-width: 800px) {
+            width: 80%;
+        }
     }
 
     a {
@@ -28,6 +30,10 @@
         font-weight: bold;
         &:hover {
             color: orange;
+        }
+
+        @media(max-width: 800px) {
+            font-size: 1.5rem;
         }
     }
 
@@ -48,17 +54,20 @@
         color: white;
         background: black;
         background-color: rgba(0,0,0,0.4);
+
+        @media(max-width: 800px) {
+            width: 80%;
+        }
     }
 
     .icons {
-        text-align: center;
-        margin-top: 1%;
-        padding-bottom: 1%;
+        width: 50%;
         margin: 0 auto;
-        width: 20%;
         margin-top: 2%;
         cursor: pointer;
         color: white;
+        display: flex;
+        justify-content: space-evenly;
 
         &:hover {
             color: aqua;
@@ -80,6 +89,12 @@
             margin-top: 2%;
             margin-bottom: 2%;
             border-radius: 10%;
+
+            @media(max-width: 800px) {
+                width: 30%;
+                margin: 0;
+                margin-left: 5%;
+            }
         }
 
         div {
@@ -95,6 +110,10 @@
 
             .about-text {
                 margin-top: 2%;
+                @media(max-width: 800px) {
+                    width: 148%;
+                    font-size: 1.1rem;
+                }
             }
 
             .contact-container {
@@ -103,6 +122,12 @@
                 display: flex;
                 width: 71%;
                 justify-content: space-between;
+                
+                @media(max-width: 800px) {
+                    margin-top: 5%;
+                    width: 100%;
+                }
+                
 
                 a {
                     border: 1px solid #444444;
@@ -113,6 +138,11 @@
                     padding-bottom: 2%;
                     margin-top: 1%;
                     text-decoration: none;
+
+                    @media(max-width: 800px) {
+                        font-size: 1.25rem;
+                        width: 100%;
+                    }
 
                     p {
                         color: white;
