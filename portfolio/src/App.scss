@@ -4,8 +4,6 @@
     padding: 0;
 }
 
-
-
 #home {
     background: url('./images/header-background.png') no-repeat;
     background-size: cover;
@@ -19,6 +17,10 @@
         align-items: center;
         width: 30%;
         padding-top: 1%;
+
+        @media(max-width: 800px) {
+            width: 80%;
+        }
     }
 
     a {
@@ -28,6 +30,10 @@
         font-weight: bold;
         &:hover {
             color: orange;
+        }
+
+        @media(max-width: 800px) {
+            font-size: 1.5rem;
         }
     }
 
@@ -48,17 +54,20 @@
         color: white;
         background: black;
         background-color: rgba(0,0,0,0.4);
+
+        @media(max-width: 800px) {
+            width: 80%;
+        }
     }
 
     .icons {
-        text-align: center;
-        margin-top: 1%;
-        padding-bottom: 1%;
+        width: 50%;
         margin: 0 auto;
-        width: 20%;
         margin-top: 2%;
         cursor: pointer;
         color: white;
+        display: flex;
+        justify-content: space-evenly;
 
         &:hover {
             color: aqua;
@@ -80,6 +89,12 @@
             margin-top: 2%;
             margin-bottom: 2%;
             border-radius: 10%;
+
+            @media(max-width: 800px) {
+                width: 30%;
+                margin: 0;
+                margin-left: 5%;
+            }
         }
 
         div {
@@ -95,6 +110,10 @@
 
             .about-text {
                 margin-top: 2%;
+                @media(max-width: 800px) {
+                    width: 148%;
+                    font-size: 1.1rem;
+                }
             }
 
             .contact-container {
@@ -103,6 +122,12 @@
                 display: flex;
                 width: 71%;
                 justify-content: space-between;
+                
+                @media(max-width: 800px) {
+                    margin-top: 5%;
+                    width: 100%;
+                }
+                
 
                 a {
                     border: 1px solid #444444;
@@ -113,6 +138,11 @@
                     padding-bottom: 2%;
                     margin-top: 1%;
                     text-decoration: none;
+
+                    @media(max-width: 800px) {
+                        font-size: 1.25rem;
+                        width: 100%;
+                    }
 
                     p {
                         color: white;
@@ -145,6 +175,23 @@
         margin-top: 2%;
         width: 20%;
 
+        @media(max-width: 800px) {
+            display: inline-block;
+            margin: 0;
+            margin-left: 4%;
+            width: 90%;
+
+            h3 {
+                width: 15.5%;
+                margin-top: 2%;
+            }
+
+            h2 {
+                margin-top: 2%;
+                margin-left: 12%;
+            }
+        }
+
         .education-header {
             margin-right: 12%;
             border-bottom: 0.2rem solid #11abb0;
@@ -156,6 +203,12 @@
     .education-content {
         margin-left: 33%;
         width: 34%;
+        @media(max-width: 800px) {
+            display: inline-block;
+            margin: 0 auto;
+            width: 80%;
+            margin-left: 15%
+        }
      }
 
      .graduation {
@@ -211,16 +264,33 @@
         margin-top: 2%;
         width: 25%;
         
+        @media(max-width: 800px){
+            display: inline-block;
+            margin: 0;
+            margin-left: 6%;
+            width: 90%;
+        }
+        
         .work-header {
             border-bottom: 0.2rem solid #11abb0;
             font-family: 'Open Sans', sans-serif;
             font-weight: bold;
+
+            @media(max-width: 800px) {
+                width: 8.5%;
+            }
         }
     
         .work-title {
             margin-left: 18%;
             font-family: 'Open Sans', sans-serif;
             font-weight: bold;
+
+            @media(max-width: 800px) {
+                margin: 0;
+                margin-left: 10%;
+                margin-top: 1%
+            }
         }
      }
 
@@ -230,6 +300,12 @@
       align-items: center;
       width: 17%;
       justify-content: space-between;
+
+      @media(max-width: 800px) {
+          width: 40%;
+          margin: 0 auto;
+          margin-right: 45%;
+      }
 
       .job-title {
           font-style: italic;
@@ -249,11 +325,23 @@
         width: 35%;
         margin-top: 1%;
         font-family: 'Open Sans', sans-serif;
+
+        @media(max-width: 800px) {
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
     }
 
     .second-job {
         margin-left: 32.5%;
         margin-top: 2%;
+
+        @media(max-width: 800px) {
+            margin: 0;
+            margin-left: 15%;
+            margin-top: 2%;
+        }
     }
 
     .skills-header {
@@ -263,6 +351,13 @@
         margin-top: 3%;
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
+
+        @media(max-width: 800px) {
+            width: 7.5%;
+            margin: 0;
+            margin-left: 5%;
+            margin-top: 5%;
+        }
     }
 
     .skills {
@@ -273,6 +368,11 @@
         justify-content: space-between;
         flex-wrap: wrap;
         width: 40%;
+
+        @media(max-width: 800px) {
+            width: 70%;
+            margin: 0 auto;
+        }
 
         li {
             font-weight: bold;
@@ -288,6 +388,12 @@
         margin-top: 3%;
         border-color: #ededed;
         opacity: 0.2;
+
+        @media(max-width: 800px) {
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 5%;
+        }
     }
 }
 
