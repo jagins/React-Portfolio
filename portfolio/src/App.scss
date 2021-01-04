@@ -175,6 +175,23 @@
         margin-top: 2%;
         width: 20%;
 
+        @media(max-width: 800px) {
+            display: inline-block;
+            margin: 0;
+            margin-left: 4%;
+            width: 90%;
+
+            h3 {
+                width: 15.5%;
+                margin-top: 2%;
+            }
+
+            h2 {
+                margin-top: 2%;
+                margin-left: 12%;
+            }
+        }
+
         .education-header {
             margin-right: 12%;
             border-bottom: 0.2rem solid #11abb0;
@@ -186,6 +203,12 @@
     .education-content {
         margin-left: 33%;
         width: 34%;
+        @media(max-width: 800px) {
+            display: inline-block;
+            margin: 0 auto;
+            width: 80%;
+            margin-left: 15%
+        }
      }
 
      .graduation {
@@ -241,16 +264,33 @@
         margin-top: 2%;
         width: 25%;
         
+        @media(max-width: 800px){
+            display: inline-block;
+            margin: 0;
+            margin-left: 6%;
+            width: 90%;
+        }
+        
         .work-header {
             border-bottom: 0.2rem solid #11abb0;
             font-family: 'Open Sans', sans-serif;
             font-weight: bold;
+
+            @media(max-width: 800px) {
+                width: 8.5%;
+            }
         }
     
         .work-title {
             margin-left: 18%;
             font-family: 'Open Sans', sans-serif;
             font-weight: bold;
+
+            @media(max-width: 800px) {
+                margin: 0;
+                margin-left: 10%;
+                margin-top: 1%
+            }
         }
      }
 
@@ -260,6 +300,12 @@
       align-items: center;
       width: 17%;
       justify-content: space-between;
+
+      @media(max-width: 800px) {
+          width: 40%;
+          margin: 0 auto;
+          margin-right: 45%;
+      }
 
       .job-title {
           font-style: italic;
@@ -279,11 +325,23 @@
         width: 35%;
         margin-top: 1%;
         font-family: 'Open Sans', sans-serif;
+
+        @media(max-width: 800px) {
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
     }
 
     .second-job {
         margin-left: 32.5%;
         margin-top: 2%;
+
+        @media(max-width: 800px) {
+            margin: 0;
+            margin-left: 15%;
+            margin-top: 2%;
+        }
     }
 
     .skills-header {
@@ -293,6 +351,13 @@
         margin-top: 3%;
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
+
+        @media(max-width: 800px) {
+            width: 7.5%;
+            margin: 0;
+            margin-left: 5%;
+            margin-top: 5%;
+        }
     }
 
     .skills {
@@ -303,6 +368,11 @@
         justify-content: space-between;
         flex-wrap: wrap;
         width: 40%;
+
+        @media(max-width: 800px) {
+            width: 70%;
+            margin: 0 auto;
+        }
 
         li {
             font-weight: bold;
@@ -318,6 +388,12 @@
         margin-top: 3%;
         border-color: #ededed;
         opacity: 0.2;
+
+        @media(max-width: 800px) {
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 5%;
+        }
     }
 }
 
